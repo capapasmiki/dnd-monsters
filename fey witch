@@ -1,0 +1,167 @@
+{
+	"name": "Fey Witch",
+	"source": "",
+	"page": 0,
+	"size": "M",
+	"type": "fey",
+	"alignment": {
+		"alignment": [
+			"C",
+			"N"
+		]
+	},
+	"ac": [
+		11
+	],
+	"hp": {
+		"average": 127,
+		"formula": "15d12 + 30"
+	},
+	"speed": {
+		"walk": 30
+	},
+	"str": 10,
+	"dex": 12,
+	"con": 14,
+	"int": 10,
+	"wis": 14,
+	"cha": 20,
+	"save": {
+		"wis": "+5",
+		"cha": "+8"
+	},
+	"skill": {
+		"intimidation": "+9",
+		"nature": "+4",
+		"perception": "+6"
+	},
+	"senses": [
+		"darkvision 60 ft."
+	],
+	"passive": 16,
+	"conditionImmune": [
+		"charmed"
+	],
+	"languages": [
+		"Common",
+		"Elvish",
+		"Sylvan"
+	],
+	"cr": "8",
+	"trait": [
+		{
+			"name": "Immutable Form",
+			"entries": [
+				"The fey witch is immune to any spell or effect that would alter its form."
+			]
+		},
+		{
+			"name": "Innate Spellcastin",
+			"entries": [
+				"The fey witch's innate spellcasting ability is Charisma (spell save {@dc 16}).  The fey witch can innately cast the following spells, requiring no material components:",
+				"At will: *druidcraft, fly, guidance, produce flame*",
+				"4/day each: *entangle, faerie fire, fog cloud*",
+				"3/day each: *barkskin, heat metal, moonbeam, spike growth*",
+				"2/day each: *call lightning, daylight, protection from energy*"
+			]
+		},
+		{
+			"name": "Legendary Resistance (3/Day)",
+			"entries": [
+				"If the fey witch fails a saving throw, it can choose to succeed instead."
+			]
+		},
+		{
+			"name": "Magic Resistance",
+			"entries": [
+				"The fey witch has advantage on saving throws against spells and other magical effects"
+			]
+		},
+		{
+			"name": "Manipulate Luck. (1/Round)",
+			"entries": [
+				"When a fey creature the fey witch can see within 60 feet of it makes an attack roll, ability check, or saving throw, the fey witch can grant advantage on the roll."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Shillelagh",
+			"entries": [
+				"{@atk mw} +8, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage."
+			]
+		},
+		{
+			"name": "Hex Bolt",
+			"entries": [
+				"{@atk rs} +8, range 40/80 ft., one target. {@h}54 ({@damage 9d10 + 5}) psychic damage.",
+				"Bonus Actions"
+			]
+		},
+		{
+			"name": "Benevolent Master",
+			"entries": [
+				"The fey witch targets a wisp wolf within 90 feet of it.  It magically turns {@condition invisible} until it attacks or until the fey witch's concentration ends (as if concentrating on a spell)."
+			]
+		},
+		{
+			"name": "Twisting Fate",
+			"entries": [
+				"Target an creature within 60 ft. that the fey witch can see, it has disadvantage on its next attack roll."
+			]
+		}
+	],
+	"reaction": [
+		{
+			"name": "Unravel Magic (Recharge 4-6)",
+			"entries": [
+				"When the fey witch sees a creature within 60 feet of it casting a spell, it can cast *counterspell* against the creature as a 4th-level spell. If the fey witch successfully interrupts the spell, the creature is also subjected to *dispel magic*.",
+				"Fey Witch",
+				"These flippant fey are the personification of chaos and luck, as likely to kill an outsider as they would be to befriend or help them. Their hermit like nature often leads to them being mistaken with the cruel hags, a comparison they are quick to correct, one way or another.",
+				"The lithe creates are seemingly quiet and humble until something displeases them.  They rarely convene together, so tempestuous is their magic that in close confines their supernatural abilities can unseam reality."
+			]
+		},
+		{
+			"name": "Outcasts",
+			"entries": [
+				"Their supernatural ability to manipulate luck comes at a high cost, fey witches are rarely allowed to reside in the Feywild in which they were born.  The volatility of their power meaning they have to be kept apart or risk the destruction of the Feywild itself.  Once a fey witch shows signs of power maturity there is a feast to honour them before they are cast out from the realm never allowed to return."
+			]
+		},
+		{
+			"name": "Solitude",
+			"entries": [
+				"Unlike the other creatures in Fey society, the witch has no calling or purpose.  They live a lonely existence, normally choosing to reside in thick forests where dryads or other fey creatures can be found in an attempt to break the longing for home.  Due to their natural abilities it is rare for outsiders to stumble upon them unless they want to be found, adventurers often turn at the last minute or trip over a vine and miss the fleeting glances of these creatures.",
+				"If discovered or curious enough they will try to gain information about current events or if possible the Feywild.  They keep close company with wisp wolves, whose abilities to cross the realms helps to witches feel closer to home.",
+				"Cool background image -->",
+				"img src='https://i.warosu.org/data/tg/img/0289/18/1387275715309.jpg' style='position:absolute; top:780px; left:441px; width:375px' />",
+				"Full page stain -->",
+				"img src='https://www.gmbinder.com/images/NAwDGQF.png' style='position:absolute; top:550px; left:40px; width:816px' />",
+				"Optional) Cool foreground image -->",
+				"div class='descriptive'>",
+				"Artwork",
+				"The artwork used is property of Steve Argyle and Wizard of the Coast, Naya Battlemage and all rights belong too Wizards of the Coast, visit http://www.steveargyle.com for more of his artwork/prints.",
+				"div>"
+			]
+		}
+	],
+	"traitTags": [
+		"Immutable Form",
+		"Legendary Resistances",
+		"Magic Resistance"
+	],
+	"senseTags": [
+		"D"
+	],
+	"languageTags": [
+		"C",
+		"E",
+		"S"
+	],
+	"damageTags": [
+		"B",
+		"Y"
+	],
+	"miscTags": [
+		"MW"
+	]
+}
