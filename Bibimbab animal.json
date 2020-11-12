@@ -41,14 +41,20 @@
 	"skill": {
 		"perception": "+6"
 	},
-	"passive": 16,
 	"resist": [
 		"fire"
 	],
-	"languages": [
-		"common"
+	"trait": [
+		{
+			"name": "Damage Immunities",
+			"entries": [
+				"Condition Immunities",
+				"Senses passive perception 16",
+				"Languages common",
+				"Challenge 13 (10,000 XP)"
+			]
+		}
 	],
-	"cr": "13",
 	"action": [
 		{
 			"name": "Multiattack",
