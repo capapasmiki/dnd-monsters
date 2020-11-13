@@ -1,197 +1,49 @@
 {
-	"name": "Mammon",
-	"isNamedCreature": true,
+	"name": "Darturi Commando",
 	"source": "",
 	"page": 0,
-	"size": "H",
-	"type": {
-		"type": "fiend",
-		"tags": [
-			"devil"
-		]
-	},
-	"alignment": [
-		"L",
-		"E"
-	],
+	"size": "M",
+	"type": "(alien)",
+	"alignment": "",
 	"ac": [
 		{
-			"ac": 20,
+			"ac": 18,
 			"from": [
-				"natural armor"
+				"{@item plate armor|PHB|plate}"
 			]
 		}
 	],
 	"hp": {
-		"average": 378,
-		"formula": "28d12 + 196"
+		"average": 105,
+		"formula": "14d8 + 42"
 	},
 	"speed": {
-		"walk": 50
+		"walk": 40
 	},
-	"str": 22,
-	"dex": 13,
-	"con": 24,
-	"int": 23,
-	"wis": 21,
-	"cha": 26,
+	"str": 17,
+	"dex": 18,
+	"con": 16,
+	"int": 13,
+	"wis": 12,
+	"cha": 11,
 	"save": {
-		"dex": "+9",
-		"int": "+14",
-		"wis": "+13",
-		"cha": "+16"
+		"dexterity": "+7"
 	},
 	"skill": {
-		"deception": "+16",
-		"insight": "+13",
-		"perception": "+13",
-		"persuasion": "+16"
+		"stealth": "+7",
+		"athletics": "+6",
+		"perception": "+4"
 	},
 	"senses": [
-		"truesight 120 ft."
+		"darkvision 120 ft."
 	],
-	"passive": 23,
-	"resist": [
-		"cold"
-	],
-	"immune": [
-		"fire",
-		"poison",
-		{
-			"immune": [
-				"bludgeoning",
-				"piercing",
-				"slashing"
-			],
-			"note": "from weapons that aren't silvered"
-		}
-	],
-	"conditionImmune": [
-		"charmed",
-		"exhaustion",
-		"frightened",
-		"poisoned"
-	],
+	"passive": 14,
 	"languages": [
-		"all",
-		"telepathy 120 ft."
+		"Galactic Standard",
+		"Tradespeak"
 	],
-	"cr": "25",
-	"spellcasting": [
-		{
-			"name": "Innate Spellcasting",
-			"headerEntries": [
-				"Mammon's innate spellcasting ability is Charisma (spell save {@dc 24}, {@hit 16} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
-			],
-			"will": [
-				"{@spell charm person}",
-				"{@spell detect magic}",
-				"{@spell dispel magic}",
-				"{@spell fabricate} (Mammon can create valuable objects)",
-				"{@spell heat metal}",
-				"{@spell arcanist's magic aura}"
-			],
-			"daily": {
-				"1": [
-					"{@spell imprisonment} (minimus containment only, inside gems)",
-					"{@spell sunburst}"
-				],
-				"3e": [
-					"{@spell animate objects}",
-					"{@spell counterspell}",
-					"{@spell creation}",
-					"{@spell instant summons}",
-					"{@spell legend lore}",
-					"{@spell teleport}"
-				]
-			},
-			"ability": "cha"
-		},
-		{
-			"name": "Spellcasting",
-			"headerEntries": [
-				"Mammon is a 6th level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 13}; {@hit 5} to hit with spell attacks). He has the following wizard spells prepared:"
-			],
-			"spells": {
-				"0": {
-					"spells": [
-						"{@spell fire bolt}",
-						"{@spell light}",
-						"{@spell mage hand}",
-						"{@spell prestidigitation}"
-					]
-				},
-				"1": {
-					"slots": 4,
-					"spells": [
-						"{@spell mage armor}",
-						"{@spell magic missile}",
-						"{@spell shield}"
-					]
-				},
-				"2": {
-					"slots": 3,
-					"spells": [
-						"{@spell misty step}",
-						"{@spell suggestion}"
-					]
-				},
-				"3": {
-					"slots": 3,
-					"spells": [
-						"{@spell fly}",
-						"{@spell lightning bolt}"
-					]
-				}
-			},
-			"ability": "int"
-		}
-	],
-	"trait": [
-		{
-			"name": "Legendary Resistance (3/Day)",
-			"entries": [
-				"If Mammon fails a saving throw, he can choose to succeed instead."
-			]
-		},
-		{
-			"name": "Magic Resistance",
-			"entries": [
-				"Mammon has advantage on saving throws against spells and other magical effects."
-			]
-		},
-		{
-			"name": "Magic Weapons",
-			"entries": [
-				"Mammon's weapon attacks are magical."
-			]
-		}
-	],
+	"cr": "6",
 	"action": [
-		{
-			"name": "Multiattack",
-			"entries": [
-				"Mammon makes three attacks."
-			]
-		},
-		{
-			"name": "Purse",
-			"entries": [
-				"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage plus 18 ({@damage 4d8}) radiant damage."
-			]
-		},
-		{
-			"name": "Molten Coins",
-			"entries": [
-				"{@atk rw} {@hit 14} to hit, range 40/120 ft., one target. {@h}16 ({@damage 3d6 + 6}) bludgeoning damage plus 18 ({@damage 4d8}) fire damage."
-			]
-		},
-		{
-			"name": "Your Weight In Gold {@recharge 5}",
-			"entries": [
-				"Mammon can use this ability as a bonus action immediately after hitting a creature with his purse attack. The creature must make a {@dc 24} Constitution saving throw. If the saving throw fails by 5 or more, the creature is instantly {@condition petrified} by being turned to solid gold. Otherwise, a creature that fails the saving throw is {@condition restrained}. A {@condition restrained} creature repeats the saving throw at the end of its next turn, becoming {@condition petrified} on a failure or ending the effect on a success. The petrification lasts until the creature receives a greater restoration spell or comparable magic."
-			]
-		},
 		{
 			"name": "Multiattack",
 			"entries": [
@@ -217,74 +69,17 @@
 			]
 		}
 	],
-	"legendary": [
-		{
-			"name": "Attack",
-			"entries": [
-				"Mammon makes one purse or molten coins attack."
-			]
-		},
-		{
-			"name": "Make It Rain",
-			"entries": [
-				"Mammon casts gold and jewels into a 5-foot radius within 60 feet. One creature within 60 feet of the treasure that can see it must make a {@dc 24} Wisdom saving throw. On a failure, the creature must use its reaction to move its speed toward the trinkets, which vanish at the end of the turn."
-			]
-		},
-		{
-			"name": "Deep Pockets (3 actions)",
-			"entries": [
-				"Mammon recharges his Your Weight In Gold ability.",
-				"Darturi Commando",
-				"Medium (Alien)",
-				"Armor Class: 18 (Plate)",
-				"Hit Points: 105 ({@dice 14d8 + 42})",
-				"Speed: 40 ft.",
-				"STR DEX CON INT WIS CHA 17 (+3) 18 (+4) 16 (+3) 13 (+1) 12 (+1) 11 (+0)",
-				"Skills: Stealth +7, Athletics +6, Perception +4",
-				"Saving Throws: Dexterity +7",
-				"Senses: passive perception 14, Darkvision 120 ft.",
-				"Languages: Galactic Standard, Tradespeak",
-				"Challenge: 6 (2,300 XP)"
-			]
-		}
-	],
-	"traitTags": [
-		"Legendary Resistances",
-		"Magic Resistance",
-		"Magic Weapons"
-	],
 	"senseTags": [
-		"U"
+		"SD"
 	],
 	"actionTags": [
 		"Multiattack"
 	],
-	"languageTags": [
-		"TP",
-		"XX"
-	],
 	"damageTags": [
-		"B",
-		"F",
-		"R"
-	],
-	"spellcastingTags": [
-		"CW",
-		"I"
+		"B"
 	],
 	"miscTags": [
-		"AOE",
 		"MW",
-		"RCH",
 		"RW"
-	],
-	"conditionInflict": [
-		"petrified",
-		"restrained"
-	],
-	"conditionInflictSpell": [
-		"blinded",
-		"charmed",
-		"restrained"
 	]
 }
