@@ -51,9 +51,9 @@
 			]
 		},
 		{
-			"name": "Scimitar",
+			"name": "Rocket Rifle",
 			"entries": [
-				"{@atk rw} {@hit 7} to hit,range 80/160 ft., 1 target. {@h}22 ({@damage 4d8 + 4}) ballistic damage. This attack may not be used against adjacent targets."
+				"Ranged Weapon range 80/160 ft. Attack: {@hit 7} to hit, 1 target. {@h}22 ({@damage 4d8 + 4}) ballistic damage. This attack may not be used against adjacent targets."
 			]
 		},
 		{
@@ -79,7 +79,6 @@
 		"B"
 	],
 	"miscTags": [
-		"MW",
-		"RW"
+		"MW"
 	]
 }
