@@ -1,0 +1,966 @@
+{
+    "schema_version": 2,
+    "oldId": "-MM1gb2JqUXIXiVq6kLE",
+    "name": "Darturi Commando",
+    "avatar": "https://5e.tools/img/blank.png",
+    "bio": "",
+    "gmnotes": "",
+    "defaulttoken": "{\"represents\":\"-MM1gb2JqUXIXiVq6kLE\",\"name\":\"Darturi Commando\",\"imgsrc\":\"https://5e.tools/img/blank.png\",\"width\":70,\"height\":70,\"compact_bar\":\"standard\",\"light_hassight\":true,\"light_radius\":\"120\",\"light_dimradius\":\"0\"}",
+    "tags": "[\"creature-alien\",\"creature-cr-6\",\"creature-medium\",\"creature\"]",
+    "controlledby": "",
+    "inplayerjournals": "",
+    "attribs": [
+        {
+            "name": "npc",
+            "current": 1,
+            "max": "",
+            "id": "-MM1gb7NSQKljkFD6I7X"
+        },
+        {
+            "name": "npc_toggle",
+            "current": 1,
+            "max": "",
+            "id": "-MM1gb7RmWz0McL5sEE5"
+        },
+        {
+            "name": "npc_options-flag",
+            "current": 0,
+            "max": "",
+            "id": "-MM1gb7TFw1z-xDmyAI2"
+        },
+        {
+            "name": "mancer_confirm_flag",
+            "current": "",
+            "max": "",
+            "id": "-MM1gb7UDCD23yEf9Iwf"
+        },
+        {
+            "name": "mancer_cancel",
+            "current": "on",
+            "max": "",
+            "id": "-MM1gb7V4FImyBpJCo3a"
+        },
+        {
+            "name": "l1mancer_status",
+            "current": "completed",
+            "max": "",
+            "id": "-MM1gb7Wgw-YQJ8niwTK"
+        },
+        {
+            "name": "wtype",
+            "current": "@{whispertoggle}",
+            "max": "",
+            "id": "-MM1gb7XFFb4iE9poYWr"
+        },
+        {
+            "name": "rtype",
+            "current": "@{advantagetoggle}",
+            "max": "",
+            "id": "-MM1gb7Z6_MYw_dV9f2u"
+        },
+        {
+            "name": "advantagetoggle",
+            "current": "{{query=1}} {{advantage=1}} {{r2=[[@{d20}",
+            "max": "",
+            "id": "-MM1gb7_mTtd13mWv-Il"
+        },
+        {
+            "name": "whispertoggle",
+            "current": "/w gm ",
+            "max": "",
+            "id": "-MM1gb7aOGRo8R-0dftC"
+        },
+        {
+            "name": "dtype",
+            "current": "full",
+            "max": "",
+            "id": "-MM1gb7bcVIjQp_2YVXy"
+        },
+        {
+            "name": "npc_name",
+            "current": "Darturi Commando",
+            "max": "",
+            "id": "-MM1gb7d3Flh7XGWBnp_"
+        },
+        {
+            "name": "npc_size",
+            "current": "Medium",
+            "max": "",
+            "id": "-MM1gb7e1hzdQRBe88rp"
+        },
+        {
+            "name": "type",
+            "current": "(alien)",
+            "max": "",
+            "id": "-MM1gb7e1hzdQRBe88rq"
+        },
+        {
+            "name": "npc_type",
+            "current": "Medium (alien), (Unknown Alignment)",
+            "max": "",
+            "id": "-MM1gb7fwv_v-sgEIGX6"
+        },
+        {
+            "name": "npc_alignment",
+            "current": "(Unknown Alignment)",
+            "max": "",
+            "id": "-MM1gb7gQoTFuamCgKlU"
+        },
+        {
+            "name": "npc_ac",
+            "current": "17",
+            "max": "",
+            "id": "-MM1gb7gQoTFuamCgKlV"
+        },
+        {
+            "name": "npc_actype",
+            "current": "plate",
+            "max": "",
+            "id": "-MM1gb7hXvGa5LpUhQln"
+        },
+        {
+            "name": "npc_hpbase",
+            "current": 105,
+            "max": "",
+            "id": "-MM1gb7iZL-4htRlyomO"
+        },
+        {
+            "name": "npc_hpformula",
+            "current": "14d8 + 42",
+            "max": "",
+            "id": "-MM1gb7jngINnoDMIg8p"
+        },
+        {
+            "name": "repeating_hpmod_-MM1gb7kOVlnRs4OB9dp_source",
+            "current": "CON",
+            "max": "",
+            "id": "-MM1gb7kOVlnRs4OB9dq"
+        },
+        {
+            "name": "repeating_hpmod_-MM1gb7kOVlnRs4OB9dp_mod",
+            "current": 3,
+            "max": "",
+            "id": "-MM1gb7ld3DhwZnEZvXg"
+        },
+        {
+            "name": "npc_speed",
+            "current": "40 ft.",
+            "max": "",
+            "id": "-MM1gb7nq2VzRgjVwxWz"
+        },
+        {
+            "name": "strength",
+            "current": 17,
+            "max": "",
+            "id": "-MM1gb7nq2VzRgjVwxX-"
+        },
+        {
+            "name": "strength_base",
+            "current": "17",
+            "max": "",
+            "id": "-MM1gb7ogvSN_H65B7LY"
+        },
+        {
+            "name": "strength_mod",
+            "current": 3,
+            "max": "",
+            "id": "-MM1gb7p_BN3SBO6IdqD"
+        },
+        {
+            "name": "npc_str_negative",
+            "current": false,
+            "max": "",
+            "id": "-MM1gb7quOXwCbCfaf0E"
+        },
+        {
+            "name": "strength_flag",
+            "current": 0,
+            "max": "",
+            "id": "-MM1gb7quOXwCbCfaf0F"
+        },
+        {
+            "name": "dexterity",
+            "current": 18,
+            "max": "",
+            "id": "-MM1gb7r93ElUI_Mg2H8"
+        },
+        {
+            "name": "dexterity_base",
+            "current": "18",
+            "max": "",
+            "id": "-MM1gb7sVk7_3SJOjXne"
+        },
+        {
+            "name": "dexterity_mod",
+            "current": 4,
+            "max": "",
+            "id": "-MM1gb7tjXkxugLm6nNT"
+        },
+        {
+            "name": "npc_dex_negative",
+            "current": false,
+            "max": "",
+            "id": "-MM1gb7wamLuHOW32rJw"
+        },
+        {
+            "name": "dexterity_flag",
+            "current": 0,
+            "max": "",
+            "id": "-MM1gb7wamLuHOW32rJx"
+        },
+        {
+            "name": "constitution",
+            "current": 16,
+            "max": "",
+            "id": "-MM1gb7x7Ik-DJvSjfNm"
+        },
+        {
+            "name": "constitution_base",
+            "current": "16",
+            "max": "",
+            "id": "-MM1gb7x7Ik-DJvSjfNn"
+        },
+        {
+            "name": "constitution_mod",
+            "current": 3,
+            "max": "",
+            "id": "-MM1gb7x7Ik-DJvSjfNo"
+        },
+        {
+            "name": "npc_con_negative",
+            "current": false,
+            "max": "",
+            "id": "-MM1gb7y5OcGktMPSfRP"
+        },
+        {
+            "name": "constitution_flag",
+            "current": 0,
+            "max": "",
+            "id": "-MM1gb7y5OcGktMPSfRQ"
+        },
+        {
+            "name": "intelligence",
+            "current": 13,
+            "max": "",
+            "id": "-MM1gb7y5OcGktMPSfRR"
+        },
+        {
+            "name": "intelligence_base",
+            "current": "13",
+            "max": "",
+            "id": "-MM1gb8-LqBsHdnMyqmV"
+        },
+        {
+            "name": "intelligence_mod",
+            "current": 1,
+            "max": "",
+            "id": "-MM1gb8-LqBsHdnMyqmW"
+        },
+        {
+            "name": "npc_int_negative",
+            "current": false,
+            "max": "",
+            "id": "-MM1gb8-LqBsHdnMyqmX"
+        },
+        {
+            "name": "intelligence_flag",
+            "current": 0,
+            "max": "",
+            "id": "-MM1gb809Xg9Kly9XdTl"
+        },
+        {
+            "name": "wisdom",
+            "current": 12,
+            "max": "",
+            "id": "-MM1gb809Xg9Kly9XdTm"
+        },
+        {
+            "name": "wisdom_base",
+            "current": "12",
+            "max": "",
+            "id": "-MM1gb81xxunPuUpMo-m"
+        },
+        {
+            "name": "wisdom_mod",
+            "current": 1,
+            "max": "",
+            "id": "-MM1gb81xxunPuUpMo-n"
+        },
+        {
+            "name": "npc_wis_negative",
+            "current": false,
+            "max": "",
+            "id": "-MM1gb81xxunPuUpMo-o"
+        },
+        {
+            "name": "wisdom_flag",
+            "current": 0,
+            "max": "",
+            "id": "-MM1gb82OLirkpucDubM"
+        },
+        {
+            "name": "charisma",
+            "current": 11,
+            "max": "",
+            "id": "-MM1gb83EHgg6uw0zEaF"
+        },
+        {
+            "name": "charisma_base",
+            "current": "11",
+            "max": "",
+            "id": "-MM1gb83EHgg6uw0zEaG"
+        },
+        {
+            "name": "charisma_mod",
+            "current": 0,
+            "max": "",
+            "id": "-MM1gb83EHgg6uw0zEaH"
+        },
+        {
+            "name": "npc_cha_negative",
+            "current": false,
+            "max": "",
+            "id": "-MM1gb83EHgg6uw0zEaI"
+        },
+        {
+            "name": "charisma_flag",
+            "current": 0,
+            "max": "",
+            "id": "-MM1gb84RrSMMY-mzwY_"
+        },
+        {
+            "name": "initiative_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-MM1gb856rzdbIaym5nz"
+        },
+        {
+            "name": "passive",
+            "current": 14,
+            "max": "",
+            "id": "-MM1gb856rzdbIaym5o-"
+        },
+        {
+            "name": "npc_languages",
+            "current": "Galactic Standard, Tradespeak",
+            "max": "",
+            "id": "-MM1gb856rzdbIaym5o0"
+        },
+        {
+            "name": "npc_challenge",
+            "current": "6",
+            "max": "",
+            "id": "-MM1gb856rzdbIaym5o1"
+        },
+        {
+            "name": "level",
+            "current": 5,
+            "max": "",
+            "id": "-MM1gb856rzdbIaym5o2"
+        },
+        {
+            "name": "npc_xp",
+            "current": 2300,
+            "max": "",
+            "id": "-MM1gb86RDH6F0eTguEB"
+        },
+        {
+            "name": "npc_vulnerabilities",
+            "current": "",
+            "max": "",
+            "id": "-MM1gb86RDH6F0eTguEC"
+        },
+        {
+            "name": "damage_vulnerabilities",
+            "current": "",
+            "max": "",
+            "id": "-MM1gb86RDH6F0eTguED"
+        },
+        {
+            "name": "npc_resistances",
+            "current": "",
+            "max": "",
+            "id": "-MM1gb876zrHQZ4q-iv4"
+        },
+        {
+            "name": "damage_resistances",
+            "current": "",
+            "max": "",
+            "id": "-MM1gb876zrHQZ4q-iv5"
+        },
+        {
+            "name": "npc_immunities",
+            "current": "",
+            "max": "",
+            "id": "-MM1gb88ycVpUwEtBnHd"
+        },
+        {
+            "name": "damage_immunities",
+            "current": "",
+            "max": "",
+            "id": "-MM1gb88ycVpUwEtBnHe"
+        },
+        {
+            "name": "npc_condition_immunities",
+            "current": "",
+            "max": "",
+            "id": "-MM1gb88ycVpUwEtBnHf"
+        },
+        {
+            "name": "damage_condition_immunities",
+            "current": "",
+            "max": "",
+            "id": "-MM1gb89Mng4n_THc7iE"
+        },
+        {
+            "name": "npc_senses",
+            "current": "darkvision 120 ft., passive Perception 14",
+            "max": "",
+            "id": "-MM1gb89Mng4n_THc7iF"
+        },
+        {
+            "name": "npc_saving_flag",
+            "current": "1337",
+            "max": "",
+            "id": "-MM1gb8EPay0z2rUZeKN"
+        },
+        {
+            "name": "npc_dex_save_flag",
+            "current": 7,
+            "max": "",
+            "id": "-MM1gb8EPay0z2rUZeKO"
+        },
+        {
+            "name": "npc_dex_save",
+            "current": 7,
+            "max": "",
+            "id": "-MM1gb8FbaX7Z5jWwUhj"
+        },
+        {
+            "name": "npc_skills_flag",
+            "current": "1337",
+            "max": "",
+            "id": "-MM1gb8GKKwo9kPmcejv"
+        },
+        {
+            "name": "npc_stealth_base",
+            "current": "7",
+            "max": "",
+            "id": "-MM1gb8GKKwo9kPmcejw"
+        },
+        {
+            "name": "npc_stealth",
+            "current": 7,
+            "max": "",
+            "id": "-MM1gb8HYtI5aX_kh-fW"
+        },
+        {
+            "name": "npc_stealth_flag",
+            "current": 7,
+            "max": "",
+            "id": "-MM1gb8HYtI5aX_kh-fX"
+        },
+        {
+            "name": "npc_athletics_base",
+            "current": "6",
+            "max": "",
+            "id": "-MM1gb8HYtI5aX_kh-fY"
+        },
+        {
+            "name": "npc_athletics",
+            "current": 6,
+            "max": "",
+            "id": "-MM1gb8IG7A12ORcA1mv"
+        },
+        {
+            "name": "npc_athletics_flag",
+            "current": 6,
+            "max": "",
+            "id": "-MM1gb8IG7A12ORcA1mw"
+        },
+        {
+            "name": "npc_perception_base",
+            "current": "4",
+            "max": "",
+            "id": "-MM1gb8IG7A12ORcA1mx"
+        },
+        {
+            "name": "npc_perception",
+            "current": 4,
+            "max": "",
+            "id": "-MM1gb8JbTkOkIJCw5TW"
+        },
+        {
+            "name": "npc_perception_flag",
+            "current": 4,
+            "max": "",
+            "id": "-MM1gb8KNe-YK3MbPqQH"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_name",
+            "current": "Multiattack",
+            "max": "",
+            "id": "-MM1gb8PiBXXNkF5KH2-"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_attack_flag",
+            "current": "on",
+            "max": "",
+            "id": "-MM1gb8Q3T1br_oTlMnp"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-MM1gb8SNwI0-9jF06DT"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_attack_display_flag",
+            "current": "{{attack=1}}",
+            "max": "",
+            "id": "-MM1gb8SNwI0-9jF06DU"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_attack_options",
+            "current": "{{attack=1}}",
+            "max": "",
+            "id": "-MM1gb8TRAu_oTbeP0UW"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_attack_tohit",
+            "current": "7",
+            "max": "",
+            "id": "-MM1gb8TRAu_oTbeP0UX"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_attack_damage",
+            "current": "4d8 + 4",
+            "max": "",
+            "id": "-MM1gb8TRAu_oTbeP0UY"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_attack_crit",
+            "current": "4d8",
+            "max": "",
+            "id": "-MM1gb8UvnXCVMvTG0Pc"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_attack_damagetype",
+            "current": "ballistic",
+            "max": "",
+            "id": "-MM1gb8ViTweIPgeUo8d"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_attack_damage2",
+            "current": "2d6 + 3",
+            "max": "",
+            "id": "-MM1gb8ViTweIPgeUo8e"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_attack_crit2",
+            "current": "2d6",
+            "max": "",
+            "id": "-MM1gb8W2WDp1_l9y32R"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_attack_damagetype2",
+            "current": "bludgeoning",
+            "max": "",
+            "id": "-MM1gb8W2WDp1_l9y32S"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_name_display",
+            "current": "Multiattack",
+            "max": "",
+            "id": "-MM1gb8XjMhJ-oLUMiB4"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_rollbase",
+            "current": "@{wtype}&{template:npcfullatk} {{attack=1}} @{damage_flag} @{npc_name_flag} {{rname=@{name}}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{dmg1=[[@{attack_damage}+0]]}} {{dmg1type=@{attack_damagetype}}} {{dmg2=[[@{attack_damage2}+0]]}} {{dmg2type=@{attack_damagetype2}}} {{crit1=[[@{attack_crit}+0]]}} {{crit2=[[@{attack_crit2}+0]]}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-MM1gb8YxQGMwHMvgoCF"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_attack_type",
+            "current": "This creature may make three attacks per round.\n\nRocket Rifle\n\nRanged",
+            "max": "",
+            "id": "-MM1gb8Z592i8VL4Pcc1"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_attack_type_display",
+            "current": "This creature may make three attacks per round.\n\nRocket Rifle\n\nRanged Weapon Attack:",
+            "max": "",
+            "id": "-MM1gb8_H0T7OywD9SJT"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_attack_tohitrange",
+            "current": "+7, Range 80/160 ft., 1 target",
+            "max": "",
+            "id": "-MM1gb8_H0T7OywD9SJU"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_attack_range",
+            "current": "80/160 ft.",
+            "max": "",
+            "id": "-MM1gb8aSxCwHCnnoVPr"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_attack_target",
+            "current": "1 target",
+            "max": "",
+            "id": "-MM1gb8bI0qYJKOvcr3-"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_damage_flag",
+            "current": "{{damage=1}} {{dmg1flag=1}} {{dmg2flag=1}} ",
+            "max": "",
+            "id": "-MM1gb8cIUMbYh7LX-nK"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_attack_onhit",
+            "current": "22 (4d8 + 4) ballistic damage plus 10 (2d6 + 3) bludgeoning damage",
+            "max": "",
+            "id": "-MM1gb8cIUMbYh7LX-nL"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_description",
+            "current": "",
+            "max": "",
+            "id": "-MM1gb8d03eEzLiOFAuY"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_description_flag",
+            "current": 13,
+            "max": "",
+            "id": "-MM1gb8efBmLD2Fpb8O3"
+        },
+        {
+            "name": "repeating_npcaction_-MM1gb8OtpwybsChSkVr_show_desc",
+            "current": "@{description}",
+            "max": "",
+            "id": "-MM1gb8fjaQMjUbLo0PD"
+        },
+        {
+            "name": "showleveler",
+            "current": 0,
+            "max": "",
+            "id": "-MM1gdOIByTjyCAulI2I"
+        },
+        {
+            "name": "invalidXP",
+            "current": 0,
+            "max": "",
+            "id": "-MM1gdONk9Az9jgEZaw7"
+        },
+        {
+            "name": "version",
+            "current": 4.21,
+            "max": "",
+            "id": "-MM1gdOa4Lx73H9TIB-r"
+        },
+        {
+            "name": "appliedUpdates",
+            "current": "upgrade_to_4_2_1,fix_npc_missing_attack_display_flag_attribute,fix_npc_version_number,fix_npcs_in_modules_saves_and_ability_mods,fix_spell_attacks,fix_npc_in_modules_triggering_popup,fix_npc_actions_to_support_translation,fix_npc_attacks,fix_npc_attacks_with_auto_damage_roll,fix_npc_actions_with_damage,fix_npc_charname_output,fix_spell_school_ouput",
+            "max": "",
+            "id": "-MM1gdOks3EaXzhtvIUE"
+        },
+        {
+            "name": "charname_output",
+            "current": "{{charname=@{npc_name}}}",
+            "max": "",
+            "id": "-MM1gdPXcI45X6qJ6gpl"
+        },
+        {
+            "name": "ui_flags",
+            "current": "",
+            "max": "",
+            "id": "-MM1hiey12Jku4c5Rfxr"
+        },
+        {
+            "name": "repeating_npcaction_-MM1huATe3z9ImZIhmNd_description",
+            "current": "Crusher\n\nMelee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. A grappled target takes double damage from this attack.",
+            "max": "",
+            "id": "-MM1hukMW7H04zZyZX7v"
+        },
+        {
+            "name": "repeating_npcaction_-MM1huATe3z9ImZIhmNd_attack_flag",
+            "current": "on",
+            "max": "",
+            "id": "-MM1humyfgWTtpj43VT8"
+        },
+        {
+            "name": "repeating_npcaction_-MM1huATe3z9ImZIhmNd_attack_tohitrange",
+            "current": "+6, Reach 5 ft., 5ft",
+            "max": "",
+            "id": "-MM1hunLRffD94-ffPvT"
+        },
+        {
+            "name": "repeating_npcaction_-MM1huATe3z9ImZIhmNd_attack_onhit",
+            "current": "10 (2d6+3) bludeoning damage",
+            "max": "",
+            "id": "-MM1hunOoxAoGcyQ2VqM"
+        },
+        {
+            "name": "repeating_npcaction_-MM1huATe3z9ImZIhmNd_damage_flag",
+            "current": "{{damage=1}} {{dmg1flag=1}} ",
+            "max": "",
+            "id": "-MM1hunQB6g1jme90bD8"
+        },
+        {
+            "name": "repeating_npcaction_-MM1huATe3z9ImZIhmNd_attack_crit",
+            "current": "2d6",
+            "max": "",
+            "id": "-MM1hunSmlXI8MVpKH3b"
+        },
+        {
+            "name": "repeating_npcaction_-MM1huATe3z9ImZIhmNd_attack_crit2",
+            "current": "",
+            "max": "",
+            "id": "-MM1hunTdNPL4YfDurDt"
+        },
+        {
+            "name": "repeating_npcaction_-MM1huATe3z9ImZIhmNd_rollbase",
+            "current": "@{wtype}&{template:npcfullatk} {{attack=1}} @{damage_flag} @{npc_name_flag} {{rname=@{name}}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{dmg1=[[@{attack_damage}+0]]}} {{dmg1type=@{attack_damagetype}}} {{dmg2=[[@{attack_damage2}+0]]}} {{dmg2type=@{attack_damagetype2}}} {{crit1=[[@{attack_crit}+0]]}} {{crit2=[[@{attack_crit2}+0]]}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-MM1hunV2a7_mY7yd4fQ"
+        },
+        {
+            "name": "repeating_npcaction_-MM1huATe3z9ImZIhmNd_attack_tohit",
+            "current": "6",
+            "max": "",
+            "id": "-MM1hzc5oHhd4fWgPqXD"
+        },
+        {
+            "name": "repeating_npcaction_-MM1huATe3z9ImZIhmNd_attack_target",
+            "current": "5ft",
+            "max": "",
+            "id": "-MM1i0hWQtx7tkfW2VfX"
+        },
+        {
+            "name": "repeating_npcaction_-MM1huATe3z9ImZIhmNd_attack_range",
+            "current": "5 ft.",
+            "max": "",
+            "id": "-MM1i5_Cqz230M8UgND1"
+        },
+        {
+            "name": "repeating_npcaction_-MM1huATe3z9ImZIhmNd_attack_damage",
+            "current": "2d6+3",
+            "max": "",
+            "id": "-MM1i8EMCErCzS2e4s0g"
+        },
+        {
+            "name": "repeating_npcaction_-MM1huATe3z9ImZIhmNd_attack_damagetype",
+            "current": "bludeoning",
+            "max": "",
+            "id": "-MM1i9vKDlkB_CDO-ved"
+        },
+        {
+            "name": "repeating_npcaction_-MM1huATe3z9ImZIhmNd_name",
+            "current": "Crusher",
+            "max": "",
+            "id": "-MM1iFG2mIS_mRhEzC37"
+        },
+        {
+            "name": "repeating_npcaction_-MM1iQ4KufJ9Zitxgimf_description",
+            "current": "Ranged Weapon Attack: +7 to hit,\nrange 80/160 ft., 1 target. Hit: 22 (4d8+4)\nballistic damage. This attack may not be used\nagainst adjacent targets.",
+            "max": "",
+            "id": "-MM1iSFUZj0N1eGY34eB"
+        },
+        {
+            "name": "repeating_npcaction_-MM1iQ4KufJ9Zitxgimf_attack_tohitrange",
+            "current": "+7, Range 80/160",
+            "max": "",
+            "id": "-MM1iSIJq9zVvePLUhGF"
+        },
+        {
+            "name": "repeating_npcaction_-MM1iQ4KufJ9Zitxgimf_attack_onhit",
+            "current": "22 (4d8+4) bludeoning damage",
+            "max": "",
+            "id": "-MM1iSILWWjLWx60oqcz"
+        },
+        {
+            "name": "repeating_npcaction_-MM1iQ4KufJ9Zitxgimf_damage_flag",
+            "current": "{{damage=1}} {{dmg1flag=1}} ",
+            "max": "",
+            "id": "-MM1iSINZzHzPA9mEDR0"
+        },
+        {
+            "name": "repeating_npcaction_-MM1iQ4KufJ9Zitxgimf_attack_crit",
+            "current": "4d8",
+            "max": "",
+            "id": "-MM1iSIRSI6PDtsU1ROs"
+        },
+        {
+            "name": "repeating_npcaction_-MM1iQ4KufJ9Zitxgimf_attack_crit2",
+            "current": "",
+            "max": "",
+            "id": "-MM1iSITEkjQb8wch7cY"
+        },
+        {
+            "name": "repeating_npcaction_-MM1iQ4KufJ9Zitxgimf_rollbase",
+            "current": "@{wtype}&{template:npcfullatk} {{attack=1}} @{damage_flag} @{npc_name_flag} {{rname=@{name}}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{dmg1=[[@{attack_damage}+0]]}} {{dmg1type=@{attack_damagetype}}} {{dmg2=[[@{attack_damage2}+0]]}} {{dmg2type=@{attack_damagetype2}}} {{crit1=[[@{attack_crit}+0]]}} {{crit2=[[@{attack_crit2}+0]]}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-MM1iSIU8js4At4W9h-n"
+        },
+        {
+            "name": "repeating_npcaction_-MM1iQ4KufJ9Zitxgimf_name",
+            "current": "Rocket Rifle",
+            "max": "",
+            "id": "-MM1iSWF8fU_NDgb0G1n"
+        },
+        {
+            "name": "repeating_npcaction_-MM1iQ4KufJ9Zitxgimf_attack_flag",
+            "current": "on",
+            "max": "",
+            "id": "-MM1iSYcRvnjJMvD-fSw"
+        },
+        {
+            "name": "repeating_npcaction_-MM1iQ4KufJ9Zitxgimf_attack_type",
+            "current": "Ranged",
+            "max": "",
+            "id": "-MM1iT8SQtZCJQlqGTTW"
+        },
+        {
+            "name": "repeating_npcaction_-MM1iQ4KufJ9Zitxgimf_attack_range",
+            "current": "80/160",
+            "max": "",
+            "id": "-MM1iYcEwwW9m8r3E1Hd"
+        },
+        {
+            "name": "repeating_npcaction_-MM1iQ4KufJ9Zitxgimf_attack_tohit",
+            "current": "7",
+            "max": "",
+            "id": "-MM1iZZ8G3SGBBtmVUqd"
+        },
+        {
+            "name": "repeating_npcaction_-MM1iQ4KufJ9Zitxgimf_attack_damage",
+            "current": "4d8+4",
+            "max": "",
+            "id": "-MM1ibkZUyoQaew8evZ3"
+        },
+        {
+            "name": "repeating_npcaction_-MM1iQ4KufJ9Zitxgimf_attack_damagetype",
+            "current": "bludeoning",
+            "max": "",
+            "id": "-MM1igIwg8v7wWlmqBnx"
+        },
+        {
+            "name": "repeating_npcaction_-MM1ipk7bZ8n4qXm4uNj_description",
+            "current": "Once per round, target a 5ft space, a creature in that space must make a dc 15 dexterity saving throw or take 28 (8d6) ballistic damage, or half damage with a successful save. Creatures within 10 feet must save as well, taking half as much damage if they fail, or a quarter as much if they succeed.",
+            "max": "",
+            "id": "-MM1iuFnkNnp9zBLwr3f"
+        },
+        {
+            "name": "repeating_npcaction_-MM1ipk7bZ8n4qXm4uNj_attack_tohitrange",
+            "current": "+0",
+            "max": "",
+            "id": "-MM1iuIUj-AKMHc1LrFK"
+        },
+        {
+            "name": "repeating_npcaction_-MM1ipk7bZ8n4qXm4uNj_attack_onhit",
+            "current": "28 (8d6) fire damage",
+            "max": "",
+            "id": "-MM1iuIZLPX8xMc2-Pjg"
+        },
+        {
+            "name": "repeating_npcaction_-MM1ipk7bZ8n4qXm4uNj_damage_flag",
+            "current": "{{damage=1}} {{dmg1flag=1}} ",
+            "max": "",
+            "id": "-MM1iuIZLPX8xMc2-Pjh"
+        },
+        {
+            "name": "repeating_npcaction_-MM1ipk7bZ8n4qXm4uNj_attack_crit",
+            "current": "8d6",
+            "max": "",
+            "id": "-MM1iuIa6JeKz7e2SLLx"
+        },
+        {
+            "name": "repeating_npcaction_-MM1ipk7bZ8n4qXm4uNj_attack_crit2",
+            "current": "",
+            "max": "",
+            "id": "-MM1iuIcunWsJwgM_2h9"
+        },
+        {
+            "name": "repeating_npcaction_-MM1ipk7bZ8n4qXm4uNj_rollbase",
+            "current": "@{wtype}&{template:dmgaction} @{damage_flag} @{npc_name_flag} {{rname=@{name}}} {{dmg1=[[@{attack_damage}+0]]}} {{dmg1type=@{attack_damagetype}}} {{dmg2=[[@{attack_damage2}+0]]}} {{dmg2type=@{attack_damagetype2}}} {{crit1=[[@{attack_crit}+0]]}} {{crit2=[[@{attack_crit2}+0]]}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-MM1iuId5TT9r7fqRkB0"
+        },
+        {
+            "name": "repeating_npcaction_-MM1ipk7bZ8n4qXm4uNj_name",
+            "current": "Heavy Rocket",
+            "max": "",
+            "id": "-MM1ivX9hq6lYB9gGpUI"
+        },
+        {
+            "name": "repeating_npcaction_-MM1ipk7bZ8n4qXm4uNj_attack_damage",
+            "current": "8d6",
+            "max": "",
+            "id": "-MM1ixgjxRDaahJVt3LI"
+        },
+        {
+            "name": "repeating_npcaction_-MM1ipk7bZ8n4qXm4uNj_attack_damagetype",
+            "current": "fire",
+            "max": "",
+            "id": "-MM1iyZ3-7HEs-ILwluE"
+        }
+    ],
+    "abilities": [
+        {
+            "name": "Skill-Check",
+            "description": "",
+            "istokenaction": true,
+            "action": "@{selected|wtype} &{template:simple}{{always=1}}?{Ability?|Acrobatics,{{rname=Acrobatics&#125;&#125;{{mod=@{npc_acrobatics}&#125;&#125; {{r1=[[1d20+@{npc_acrobatics}]]&#125;&#125;{{r2=[[1d20+@{npc_acrobatics}]]&#125;&#125;|Animal Handling,{{rname=Animal Handling&#125;&#125;{{mod=@{npc_animal_handling}&#125;&#125; {{r1=[[1d20+@{npc_animal_handling}]]&#125;&#125;{{r2=[[1d20+@{npc_animal_handling}]]&#125;&#125;|Arcana,{{rname=Arcana&#125;&#125;{{mod=@{npc_arcana}&#125;&#125; {{r1=[[1d20+@{npc_arcana}]]&#125;&#125;{{r2=[[1d20+@{npc_arcana}]]&#125;&#125;|Athletics,{{rname=Athletics&#125;&#125;{{mod=@{npc_athletics}&#125;&#125; {{r1=[[1d20+@{npc_athletics}]]&#125;&#125;{{r2=[[1d20+@{npc_athletics}]]&#125;&#125;|Deception,{{rname=Deception&#125;&#125;{{mod=@{npc_deception}&#125;&#125; {{r1=[[1d20+@{npc_deception}]]&#125;&#125;{{r2=[[1d20+@{npc_deception}]]&#125;&#125;|History,{{rname=History&#125;&#125;{{mod=@{npc_history}&#125;&#125; {{r1=[[1d20+@{npc_history}]]&#125;&#125;{{r2=[[1d20+@{npc_history}]]&#125;&#125;|Insight,{{rname=Insight&#125;&#125;{{mod=@{npc_insight}&#125;&#125; {{r1=[[1d20+@{npc_insight}]]&#125;&#125;{{r2=[[1d20+@{npc_insight}]]&#125;&#125;|Intimidation,{{rname=Intimidation&#125;&#125;{{mod=@{npc_intimidation}&#125;&#125; {{r1=[[1d20+@{npc_intimidation}]]&#125;&#125;{{r2=[[1d20+@{npc_intimidation}]]&#125;&#125;|Investigation,{{rname=Investigation&#125;&#125;{{mod=@{npc_investigation}&#125;&#125; {{r1=[[1d20+@{npc_investigation}]]&#125;&#125;{{r2=[[1d20+@{npc_investigation}]]&#125;&#125;|Medicine,{{rname=Medicine&#125;&#125;{{mod=@{npc_medicine}&#125;&#125; {{r1=[[1d20+@{npc_medicine}]]&#125;&#125;{{r2=[[1d20+@{npc_medicine}]]&#125;&#125;|Nature,{{rname=Nature&#125;&#125;{{mod=@{npc_nature}&#125;&#125; {{r1=[[1d20+@{npc_nature}]]&#125;&#125;{{r2=[[1d20+@{npc_nature}]]&#125;&#125;|Perception,{{rname=Perception&#125;&#125;{{mod=@{npc_perception}&#125;&#125; {{r1=[[1d20+@{npc_perception}]]&#125;&#125;{{r2=[[1d20+@{npc_perception}]]&#125;&#125;|Performance,{{rname=Performance&#125;&#125;{{mod=@{npc_performance}&#125;&#125; {{r1=[[1d20+@{npc_performance}]]&#125;&#125;{{r2=[[1d20+@{npc_performance}]]&#125;&#125;|Persuasion,{{rname=Persuasion&#125;&#125;{{mod=@{npc_persuasion}&#125;&#125; {{r1=[[1d20+@{npc_persuasion}]]&#125;&#125;{{r2=[[1d20+@{npc_persuasion}]]&#125;&#125;|Religion,{{rname=Religion&#125;&#125;{{mod=@{npc_religion}&#125;&#125; {{r1=[[1d20+@{npc_religion}]]&#125;&#125;{{r2=[[1d20+@{npc_religion}]]&#125;&#125;|Sleight of Hand,{{rname=Sleight of Hand&#125;&#125;{{mod=@{npc_sleight_of_hand}&#125;&#125; {{r1=[[1d20+@{npc_sleight_of_hand}]]&#125;&#125;{{r2=[[1d20+@{npc_sleight_of_hand}]]&#125;&#125;|Stealth,{{rname=Stealth&#125;&#125;{{mod=@{npc_stealth}&#125;&#125; {{r1=[[1d20+@{npc_stealth}]]&#125;&#125;{{r2=[[1d20+@{npc_stealth}]]&#125;&#125;|Survival,{{rname=Survival&#125;&#125;{{mod=@{npc_survival}&#125;&#125; {{r1=[[1d20+@{npc_survival}]]&#125;&#125;{{r2=[[1d20+@{npc_survival}]]&#125;&#125;}{{charname=@{character_name}}} ",
+            "order": -1
+        },
+        {
+            "name": "Perception",
+            "description": "",
+            "istokenaction": true,
+            "action": "%{Selected|npc_perception} @{selected|wtype} &{template:default} {{name=Senses}}  @{selected|wtype} @{Selected|npc_senses} ",
+            "order": -1
+        },
+        {
+            "name": "Saves",
+            "description": "",
+            "istokenaction": true,
+            "action": "@{selected|wtype} &{template:simple}{{always=1}}?{Saving Throw?|STR,{{rname=Strength Save&#125;&#125;{{mod=@{npc_str_save}&#125;&#125; {{r1=[[1d20+@{npc_str_save}]]&#125;&#125;{{r2=[[1d20+@{npc_str_save}]]&#125;&#125;|DEX,{{rname=Dexterity Save&#125;&#125;{{mod=@{npc_dex_save}&#125;&#125; {{r1=[[1d20+@{npc_dex_save}]]&#125;&#125;{{r2=[[1d20+@{npc_dex_save}]]&#125;&#125;|CON,{{rname=Constitution Save&#125;&#125;{{mod=@{npc_con_save}&#125;&#125; {{r1=[[1d20+@{npc_con_save}]]&#125;&#125;{{r2=[[1d20+@{npc_con_save}]]&#125;&#125;|INT,{{rname=Intelligence Save&#125;&#125;{{mod=@{npc_int_save}&#125;&#125; {{r1=[[1d20+@{npc_int_save}]]&#125;&#125;{{r2=[[1d20+@{npc_int_save}]]&#125;&#125;|WIS,{{rname=Wisdom Save&#125;&#125;{{mod=@{npc_wis_save}&#125;&#125; {{r1=[[1d20+@{npc_wis_save}]]&#125;&#125;{{r2=[[1d20+@{npc_wis_save}]]&#125;&#125;|CHA,{{rname=Charisma Save&#125;&#125;{{mod=@{npc_cha_save}&#125;&#125; {{r1=[[1d20+@{npc_cha_save}]]&#125;&#125;{{r2=[[1d20+@{npc_cha_save}]]&#125;&#125;}{{charname=@{character_name}}} ",
+            "order": -1
+        },
+        {
+            "name": "Init",
+            "description": "",
+            "istokenaction": true,
+            "action": "%{selected|npc_init}",
+            "order": -1
+        },
+        {
+            "name": "Ability-Check",
+            "description": "",
+            "istokenaction": true,
+            "action": "@{selected|wtype} &{template:simple}{{always=1}}?{Ability?|STR,{{rname=Strength&#125;&#125;{{mod=@{strength_mod}&#125;&#125; {{r1=[[1d20+@{strength_mod}]]&#125;&#125;{{r2=[[1d20+@{strength_mod}]]&#125;&#125;|DEX,{{rname=Dexterity&#125;&#125;{{mod=@{dexterity_mod}&#125;&#125; {{r1=[[1d20+@{dexterity_mod}]]&#125;&#125;{{r2=[[1d20+@{dexterity_mod}]]&#125;&#125;|CON,{{rname=Constitution&#125;&#125;{{mod=@{constitution_mod}&#125;&#125; {{r1=[[1d20+@{constitution_mod}]]&#125;&#125;{{r2=[[1d20+@{constitution_mod}]]&#125;&#125;|INT,{{rname=Intelligence&#125;&#125;{{mod=@{intelligence_mod}&#125;&#125; {{r1=[[1d20+@{intelligence_mod}]]&#125;&#125;{{r2=[[1d20+@{intelligence_mod}]]&#125;&#125;|WIS,{{rname=Wisdom&#125;&#125;{{mod=@{wisdom_mod}&#125;&#125; {{r1=[[1d20+@{wisdom_mod}]]&#125;&#125;{{r2=[[1d20+@{wisdom_mod}]]&#125;&#125;|CHA,{{rname=Charisma&#125;&#125;{{mod=@{charisma_mod}&#125;&#125; {{r1=[[1d20+@{charisma_mod}]]&#125;&#125;{{r2=[[1d20+@{charisma_mod}]]&#125;&#125;}{{charname=@{character_name}}} ",
+            "order": -1
+        },
+        {
+            "name": "DR/Immunities",
+            "description": "",
+            "istokenaction": true,
+            "action": "@{selected|wtype} &{template:default} {{name=DR/Immunities}} {{Damage Resistance= @{selected|npc_resistances}}} {{Damage Vulnerability= @{selected|npc_vulnerabilities}}} {{Damage Immunity= @{selected|npc_immunities}}} {{Condition Immunity= @{selected|npc_condition_immunities}}} ",
+            "order": -1
+        },
+        {
+            "name": "Stats",
+            "description": "",
+            "istokenaction": true,
+            "action": "@{selected|wtype} &{template:default} {{name=Stats}} {{Armor Class= @{selected|npc_AC}}} {{Hit Dice= @{selected|npc_hpformula}}} {{Speed= @{selected|npc_speed}}} {{Senses= @{selected|npc_senses}}} {{Languages= @{selected|npc_languages}}} {{Challenge= @{selected|npc_challenge}(@{selected|npc_xp}xp)}}",
+            "order": -1
+        },
+        {
+            "name": "0: Multiattack",
+            "description": "",
+            "istokenaction": true,
+            "action": "%{selected|repeating_npcaction_$0_npc_action}",
+            "order": -1
+        }
+    ]
+}
