@@ -1,0 +1,91 @@
+{
+	"monster": [
+		{
+			"name": "Darturi Commando",
+			"source": "",
+			"page": 0,
+			"size": "M",
+			"type": "(alien)",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item plate armor|PHB|plate}"
+					]
+				}
+			],
+			"hp": {
+				"average": 105,
+				"formula": "14d8 + 42"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 17,
+			"dex": 18,
+			"con": 16,
+			"int": 13,
+			"wis": 12,
+			"cha": 11,
+			"save": {
+				"dex": "+7"
+			},
+			"skill": {
+				"stealth": "+7",
+				"athletics": "+6",
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Galactic Standard",
+				"Tradespeak"
+			],
+			"cr": "6",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"This creature may make three attacks."
+					]
+				},
+				{
+					"name": "Rocket Rifle",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 80/160ft., one target. {@h}22 ({@damage 4d8 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Crusher",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage. A {@condition grappled} target takes double damage from this attack."
+					]
+				},
+				{
+					"name": "Heavy Rocket",
+					"entries": [
+						"Once per round, target a 5ft space, a creature in that space must make a dc 15 dexterity saving throw or take 28 ({@damage 8d6}) ballistic damage, or half damage with a successful save. Creatures within 10 feet must save as well, taking half as much damage if they fail, or a quarter as much if they succeed."
+					]
+				}
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		}
+	]
+}
