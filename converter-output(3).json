@@ -1,90 +1,82 @@
 {
 	"monster": [
 		{
-			"name": "Darturi Commando",
+			"name": "Fungusaur",
 			"source": "",
 			"page": 0,
-			"size": "M",
+			"size": "L",
 			"type": "(alien)",
-			"alignment": [
-				"N"
-			],
+			"alignment": "",
 			"ac": [
 				{
-					"ac": 17,
+					"ac": 14,
 					"from": [
-						"{@item plate armor|PHB|plate}"
+						"natural armor"
 					]
 				}
 			],
 			"hp": {
-				"average": 105,
-				"formula": "14d8 + 42"
+				"average": 86,
+				"formula": "9d10 + 36"
 			},
 			"speed": {
-				"walk": 40
+				"walk": 50
 			},
-			"str": 17,
-			"dex": 18,
-			"con": 16,
-			"int": 13,
-			"wis": 12,
-			"cha": 11,
-			"save": {
-				"dex": "+7"
-			},
+			"str": 16,
+			"dex": 13,
+			"con": 19,
+			"int": 2,
+			"wis": 14,
+			"cha": 10,
 			"skill": {
-				"stealth": "+7",
-				"athletics": "+6",
-				"perception": "+4"
+				"perception": "+5"
 			},
-			"senses": [
-				"darkvision 120 ft."
+			"passive": 15,
+			"resist": [
+				": piercing",
+				"ballistic"
 			],
-			"passive": 14,
-			"languages": [
-				"Galactic Standard",
-				"Tradespeak"
-			],
-			"cr": "6",
+			"cr": "4",
 			"action": [
 				{
 					"name": "Multiattack",
 					"entries": [
-						"This creature may make three attacks."
+						"This creature makes two attacks per round, one with its tails and once with its claws."
 					]
 				},
 				{
-					"name": "Rocket Rifle",
+					"name": "Claws",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 80/160ft., one target. {@h}22 ({@damage 4d8 + 4}) bludgeoning damage."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) slashing damage."
 					]
 				},
 				{
-					"name": "Crusher",
+					"name": "Tails",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage. A {@condition grappled} target takes double damage from this attack."
-					]
-				},
-				{
-					"name": "Heavy Rocket",
-					"entries": [
-						"Once per round, target a 5ft space, a creature in that space must make a dc 15 dexterity saving throw or take 28 ({@damage 8d6}) ballistic damage, or half damage with a successful save. Creatures within 10 feet must save as well, taking half as much damage if they fail, or a quarter as much if they succeed."
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}12 ({@damage 3d8 + 3}) bludgeoning damage. A target hit by this attack must make a dc14 strength save or be knocked {@condition prone}.",
+						"Bonus Actions",
+						"Spore Cloud (1/rd.): Once per round the",
+						"Fungusaur can eject a cloud of spores as a bonus action. All hostile creatures within 20 feet must make a dc15 constitution save or become {@condition poisoned}, and begin taking 7 ({@damage 2d6}) poison damage at the start of each of its turns.",
+						"A creature may attempt to save again on each of its turns to end this condition.",
+						"Fungusaurs are predatory, diurnal creatures more akin to fungus than terran animal life.",
+						"These creatures are territorial and aggressive."
 					]
 				}
-			],
-			"senseTags": [
-				"SD"
 			],
 			"actionTags": [
 				"Multiattack"
 			],
 			"damageTags": [
-				"B"
+				"B",
+				"I",
+				"S"
 			],
 			"miscTags": [
 				"MW",
-				"RW"
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
 			]
 		}
 	]
