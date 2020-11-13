@@ -53,7 +53,7 @@
 		{
 			"name": "Rocket Rifle",
 			"entries": [
-				"{@atk rw} {@hit 7} to hit, range 80/160 ft., 1 target. {@h}22 ({@damage 4d8 + 4}) ballistic damage. This attack may not be used against adjacent targets."
+				"{@atk rw} {@hit 7} to hit,range 80/160 ft., 1 target. {@h}22 ({@damage 4d8 + 4}) ballistic damage. This attack may not be used against adjacent targets."
 			]
 		},
 		{
