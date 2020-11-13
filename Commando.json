@@ -4,10 +4,12 @@
 	"page": 0,
 	"size": "M",
 	"type": "(alien)",
-	"alignment": "",
+	"alignment": [
+		"N"
+	],
 	"ac": [
 		{
-			"ac": 18,
+			"ac": 17,
 			"from": [
 				"{@item plate armor|PHB|plate}"
 			]
@@ -27,7 +29,7 @@
 	"wis": 12,
 	"cha": 11,
 	"save": {
-		"dexterity": "+7"
+		"dex": "+7"
 	},
 	"skill": {
 		"stealth": "+7",
@@ -53,13 +55,13 @@
 		{
 			"name": "Rocket Rifle",
 			"entries": [
-				"Ranged Weapon range 80/160 ft. Attack: {@hit 7} to hit, 1 target. {@h}22 ({@damage 4d8 + 4}) ballistic damage. This attack may not be used against adjacent targets."
+				"Ranged Weapon Attack range 80/160 ft, {@hit 7} to hit, 1 target. {@h}22 ({@damage 4d8 + 4}) ballistic damage. This attack may not be used against adjacent targets."
 			]
 		},
 		{
 			"name": "Crusher",
 			"entries": [
-				"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage. A {@condition grappled} target takes double damage from this attack."
+				"Melee Weapon Attack {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage. A {@condition grappled} target takes double damage from this attack."
 			]
 		},
 		{
@@ -77,8 +79,5 @@
 	],
 	"damageTags": [
 		"B"
-	],
-	"miscTags": [
-		"MW"
 	]
 }
