@@ -49,13 +49,13 @@
 		{
 			"name": "Multiattack",
 			"entries": [
-				"This creature may make three attacks per round."
+				"This creature may make three attacks."
 			]
 		},
 		{
 			"name": "Rocket Rifle",
 			"entries": [
-				"Ranged Weapon Attack range 80/160 ft, {@hit 7} to hit, 1 target. {@h}22 ({@damage 4d8 + 4}) ballistic damage. This attack may not be used against adjacent targets."
+				"{@atk rw} {@hit 7} to hit, range 80/160, one target. {@h}22 ({@damage 4d8 + 4}) bludgeoning damage. This attack may not be used against adjacent targets."
 			]
 		},
 		{
@@ -79,5 +79,8 @@
 	],
 	"damageTags": [
 		"B"
+	],
+	"miscTags": [
+		"RW"
 	]
 }
