@@ -1,0 +1,83 @@
+{
+	"monster": [
+		{
+			"name": "Fungusaur",
+			"source": "",
+			"page": 0,
+			"size": "L",
+			"type": "(alien)",
+			"alignment": "",
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 86,
+				"formula": "9d10 + 36"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 16,
+			"dex": 13,
+			"con": 19,
+			"int": 2,
+			"wis": 14,
+			"cha": 10,
+			"skill": {
+				"perception": "+5"
+			},
+			"passive": 15,
+			"resist": [
+				": piercing",
+				"ballistic"
+			],
+			"cr": "4",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"This creature makes two attacks per round, one with its tails and once with its claws."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Tails",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}12 ({@damage 3d8 + 3}) bludgeoning damage. A target hit by this attack must make a dc14 strength save or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Spore Cloud",
+					"entries": [
+						"{@atk m} (1/rd.): Once per round the Fungusaur can eject a cloud of spores as a bonus action. All hostile creatures within 20 feet must make a dc15 constitution save or become {@condition poisoned}, and begin taking 7 ({@damage 2d6}) poison damage at the start of each of its turns. A creature may attempt to save again on each of its turns to end this condition. Fungusaurs are predatory,diurnal creatures more akin to fungus than terran animal life. These creatures are territorial and aggressive."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"I",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		}
+	]
+}
