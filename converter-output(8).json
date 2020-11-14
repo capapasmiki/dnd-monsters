@@ -166,7 +166,7 @@
 				{
 					"name": "Shockwave",
 					"entries": [
-						"{@dmg}Ambrose slams the ground with his shield releasing a shockwave of energy in a 30 feet radius around him. Every creature in the area must succeed on a {@dc 23} Dexterity saving throw, taking 51 ({@damage 8d10 + 7}) bludgeoning damage and be knocked {@condition prone} and {@condition stunned} until the end of Ambrose's next turn on a failed save, or half as much damage and not be knocked {@condition prone} and {@condition stunned} on a successful one."
+						"{@atk}Ambrose slams the ground with his shield releasing a shockwave of energy in a 30 feet radius around him. Every creature in the area must succeed on a {@dc 23} Dexterity saving throw, taking 51 ({@damage 8d10 + 7}) bludgeoning damage and be knocked {@condition prone} and {@condition stunned} until the end of Ambrose's next turn on a failed save, or half as much damage and not be knocked {@condition prone} and {@condition stunned} on a successful one."
 					]
 				},
 				{
