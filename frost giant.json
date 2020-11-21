@@ -1,0 +1,83 @@
+{
+	"monster": [
+		{
+			"name": "Frost Giant",
+			"source": "",
+			"page": 0,
+			"size": "H",
+			"type": "giant",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"average": 138,
+				"formula": "12d12 + 60"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 23,
+			"dex": 9,
+			"con": 21,
+			"int": 9,
+			"wis": 10,
+			"cha": 12,
+			"save": {
+				"con": "+8",
+				"wis": "+3",
+				"cha": "+4"
+			},
+			"skill": {
+				"athletics": "+9",
+				"perception": "+3"
+			},
+			"passive": 13,
+			"immune": [
+				"cold"
+			],
+			"languages": [
+				"Giant"
+			],
+			"cr": "8",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant makes two greataxe attacks."
+					]
+				},
+				{
+					"name": "Greataxe",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}25 ({@damage 3d12 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 60/240 ft., one target. {@h}28 ({@damage 4d10 + 6}) bludgeoning damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"GI"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			]
+		}
+	]
+}
