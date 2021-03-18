@@ -1,0 +1,120 @@
+{
+	"monster": [
+		{
+			"name": "Headless Horseman",
+			"source": "",
+			"page": 0,
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 27,
+				"formula": "5d8 + 5"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 12,
+			"int": 8,
+			"wis": 12,
+			"cha": 5,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60ft"
+			],
+			"passive": 13,
+			"resist": [
+				"necrotic",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks not made with silvered wepaons",
+					"cond": true
+				}
+			],
+			"immune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Languages-",
+					"entries": [
+						"Challenge 3 (700 XP)",
+						"Special Traits"
+					]
+				},
+				{
+					"name": "Turn Resistance",
+					"entries": [
+						"The headless horseman has advantage on saving throws against any effect that turns undead."
+					]
+				},
+				{
+					"name": "Undead Nature",
+					"entries": [
+						"A headless horseman doesn't require air, food, drink, or sleep."
+					]
+				},
+				{
+					"name": "Joined at the Hip",
+					"entries": [
+						"The mount of the horseman will obey it and fight to the death to protect the rider. The rider cannot be knocked off and does not dismount. However the nightmare cannot use Ethereal Stride until the rider is slain."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The headless horseman makes two attacks with its greataxe or one magical pumpkin attack."
+					]
+				},
+				{
+					"name": "Greataxe",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d12 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Flaming Pumpkin",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 20/60 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage plus 7 ({@damage 2d6}) fire damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Turn Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		}
+	]
+}
